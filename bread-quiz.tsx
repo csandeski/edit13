@@ -583,7 +583,7 @@ export default function BreadQuiz() {
       id: 2,
       title: "75 Receitas de Tortas Salgadas",
       description: "Tortas salgadas perfeitas para qualquer ocasião",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/aShgfW2.jpeg",
       originalPrice: 19.9,
       price: 0,
       icon: "utensils",
