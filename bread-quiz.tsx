@@ -196,7 +196,7 @@ export default function BreadQuiz() {
   const questions = [
     {
       question: "Qual fermento é o ideal para fazer um pão que cresce bastante e fica super fofo?",
-      image: "https://i.imgur.com/tXRDnQ9.png",
+      image: "https://i.imgur.com/qTXV35f.png",
       options: [
         { text: "Fermento químico", icon: "flask" },
         { text: "Fermento biológico fresco", icon: "bread" },
@@ -230,7 +230,7 @@ export default function BreadQuiz() {
     },
     {
       question: "Qual é o ingrediente que dá o sabor característico ao pão?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/6RCvuyu.png",
       options: [
         { text: "Açúcar", icon: "candy" },
         { text: "Sal", icon: "wheat" },
@@ -247,7 +247,7 @@ export default function BreadQuiz() {
     },
     {
       question: "Qual é a melhor farinha para fazer pães artesanais com boa estrutura?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/foY5Owg.png",
       options: [
         { text: "Farinha de trigo comum", icon: "wheat" },
         { text: "Farinha de trigo integral", icon: "wheat" },
@@ -264,7 +264,7 @@ export default function BreadQuiz() {
     },
     {
       question: "O que é a autólise na produção de pães?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/OnxDMCl.png",
       options: [
         { text: "Fermentação acelerada da massa", icon: "clock" },
         { text: "Mistura inicial de farinha e água", icon: "droplet" },
@@ -281,7 +281,7 @@ export default function BreadQuiz() {
     },
     {
       question: "Qual destas técnicas melhora a crosta crocante do pão?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/S1t2ycN.png",
       options: [
         { text: "Borrifar água no forno durante o cozimento", icon: "droplet" },
         { text: "Adicionar mais açúcar à massa", icon: "candy" },
@@ -298,7 +298,7 @@ export default function BreadQuiz() {
     },
     {
       question: "Qual é o propósito da dobra (fold) da massa durante a fermentação?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/gthUK8m.png",
       options: [
         { text: "Remover o excesso de ar da massa", icon: "hand" },
         { text: "Fortalecer a rede de glúten", icon: "scissors" },
@@ -315,7 +315,7 @@ export default function BreadQuiz() {
     },
     {
       question: "O que é o 'oven spring' na panificação?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/t7u6s82.png",
       options: [
         { text: "Uma mola especial no forno para pães", icon: "scissors" },
         { text: "O crescimento rápido do pão nos primeiros minutos no forno", icon: "bread" },
@@ -332,7 +332,7 @@ export default function BreadQuiz() {
     },
     {
       question: "Qual a função do ácido ascórbico (vitamina C) na panificação industrial?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/snRY6mR.png",
       options: [
         { text: "Conservar o pão por mais tempo", icon: "clock" },
         { text: "Fortalecer a rede de glúten", icon: "scissors" },
@@ -349,7 +349,7 @@ export default function BreadQuiz() {
     },
     {
       question: "Qual técnica tradicional usa uma cultura fermentada natural em vez de fermento comercial?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/K7N1ySU.png",
       options: [
         { text: "Fermentação direta", icon: "clock" },
         { text: "Poolish", icon: "droplet" },
@@ -366,7 +366,7 @@ export default function BreadQuiz() {
     },
     {
       question: "Qual é o propósito da 'estufa' ou 'câmara de fermentação' na produção de pães?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/RLls4Gf.png",
       options: [
         { text: "Resfriar a massa rapidamente após a sova", icon: "thermometer" },
         { text: "Criar ambiente ideal de temperatura e umidade para fermentação", icon: "droplet" },
@@ -383,7 +383,7 @@ export default function BreadQuiz() {
     },
     {
       question: "O que é o 'ponto de véu' na massa do pão?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/sHKrLBu.png",
       options: [
         { text: "Quando a massa forma uma película translúcida quando esticada", icon: "scissors" },
         { text: "O momento em que se adiciona a farinha de cobertura", icon: "wheat" },
@@ -400,7 +400,7 @@ export default function BreadQuiz() {
     },
     {
       question: "O que causa o 'choque térmico' benéfico para alguns tipos de pão?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/dlSknYm.png",
       options: [
         { text: "Colocar a massa quente na geladeira após a sova", icon: "thermometer" },
         { text: "Jogar água gelada na massa durante a mistura", icon: "droplet" },
@@ -418,7 +418,7 @@ export default function BreadQuiz() {
     {
       question:
         "Qual ingrediente pode ser usado para aumentar a durabilidade natural do pão sem conservantes químicos?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/EitIqsj.png",
       options: [
         { text: "Batata cozida amassada", icon: "wheat" },
         { text: "Açúcar refinado", icon: "candy" },
@@ -435,7 +435,7 @@ export default function BreadQuiz() {
     },
     {
       question: "Qual é a função do 'poolish' na produção de pães?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/ljLkF9E.png",
       options: [
         { text: "Dar cor à crosta do pão", icon: "flame" },
         { text: "Desenvolver sabor e melhorar a textura", icon: "bread" },
@@ -452,7 +452,7 @@ export default function BreadQuiz() {
     },
     {
       question: "Por que alguns pães precisam de duas fermentações (primeira e segunda)?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/f1q7KxA.png",
       options: [
         { text: "Para economizar fermento", icon: "wheat" },
         { text: "Para desenvolver sabor e estrutura", icon: "bread" },
@@ -469,7 +469,7 @@ export default function BreadQuiz() {
     },
     {
       question: "Qual é a técnica correta para esfriar um pão depois de assado?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/gnNmz85.png0",
       options: [
         { text: "Cobrir com um pano úmido imediatamente", icon: "droplet" },
         { text: "Deixar esfriar completamente sobre uma grade", icon: "thermometer" },
@@ -486,7 +486,7 @@ export default function BreadQuiz() {
     },
     {
       question: "O que é o 'scoring' na panificação artesanal?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/etjwvhD.png",
       options: [
         { text: "Avaliar a qualidade do pão após assado", icon: "star" },
         { text: "Fazer cortes na superfície da massa antes de assar", icon: "scissors" },
@@ -503,7 +503,7 @@ export default function BreadQuiz() {
     },
     {
       question: "Qual é o benefício de usar água filtrada para fazer pães?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/KML7ZDM.png",
       options: [
         { text: "Reduz o tempo de cozimento", icon: "clock" },
         { text: "Melhora a atividade do fermento", icon: "bread" },
@@ -520,7 +520,7 @@ export default function BreadQuiz() {
     },
     {
       question: "Qual técnica ajuda a criar um miolo mais aberto com bolhas grandes em pães artesanais?",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://i.imgur.com/6IPLFek.png",
       options: [
         { text: "Sovar intensamente por 20 minutos", icon: "hand" },
         { text: "Alta hidratação e manuseio delicado", icon: "droplet" },
