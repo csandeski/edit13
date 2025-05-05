@@ -40,6 +40,24 @@ import {
 import { Badge } from "@/components/ui/badge"
 import { motion } from "framer-motion"
 
+// Componente memoizado para os cards de dicas que não mudam frequentemente
+const TipCard = memo(({ tip, renderIcon }) => (
+  <div className="bg-white rounded-lg shadow-md overflow-hidden border border-amber-100 hover:shadow-lg transition-all transform hover:-translate-y-1">
+    <div className="bg-gradient-to-r from-amber-500 to-amber-400 p-3">
+      <h3 className="text-white font-bold flex items-center gap-2 text-lg">
+        <div className="bg-white p-1.5 rounded-full text-amber-500">{renderIcon(tip.icon)}</div>
+        {tip.title}
+      </h3>
+    </div>
+    <div className="p-4 border-t border-amber-100">
+      <p className="text-gray-700">{tip.description}</p>
+      <div className="mt-3 flex justify-end">
+        <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-200">Dica Profissional</Badge>
+      </div>
+    </div>
+  </div>
+))
+
 // Adicionar estilos de animação
 const animations = {
   "@keyframes pulse": {
