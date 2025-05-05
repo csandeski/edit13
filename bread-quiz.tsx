@@ -40,6 +40,29 @@ import {
 import { Badge } from "@/components/ui/badge"
 import { motion } from "framer-motion"
 
+useEffect(() => {
+  function enviarAltura() {
+    const altura = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({ altura }, '*');
+  }
+
+  enviarAltura(); // dispara ao montar
+
+  // Observa alterações no DOM para reenviar a altura
+  const observer = new MutationObserver(() => {
+    enviarAltura();
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
+
+  window.addEventListener('resize', enviarAltura);
+
+  return () => {
+    observer.disconnect();
+    window.removeEventListener('resize', enviarAltura);
+  };
+}, []);
+
 // Componente memoizado para os cards de dicas que não mudam frequentemente
 const TipCard = memo(({ tip, renderIcon }) => (
   <div className="bg-white rounded-lg shadow-md overflow-hidden border border-amber-100 hover:shadow-lg transition-all transform hover:-translate-y-1">
