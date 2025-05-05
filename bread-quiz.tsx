@@ -1098,7 +1098,7 @@ export default function BreadQuiz() {
   }
 
   return (
-    <div className="min-h-screen bg-[#FDF6E3] bg-[url('https://www.transparenttextures.com/patterns/flour.png')] p-4">
+    <div className="min-h-screen bg-[#F0F0F0] bg-[url('https://www.transparenttextures.com/patterns/flour.png')] p-4">
       {/* Elementos de áudio */}
       <audio ref={successAudioRef} src="https://infosaber.online/Success.wav" preload="auto" />
       <audio ref={errorAudioRef} src="https://archive.org/embed/wrong-error-effect" preload="auto" />
