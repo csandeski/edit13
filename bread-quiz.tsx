@@ -1280,8 +1280,8 @@ export default function BreadQuiz() {
                       src={questions[currentQuestionIndex].image || "/placeholder.svg"}
                       alt="Imagem da pergunta"
                       className="max-w-[70%] rounded-lg transition-transform hover:scale-[1.02]"
-                      width={300}
-                      height={200}
+                      width={450}
+                      height={350}
                       loading="lazy"
                     />
                   </div>
@@ -1521,7 +1521,7 @@ export default function BreadQuiz() {
                     onClick={() => setShowPurchaseModal(true)}
                   >
                     <ShoppingCart className="mr-2 h-5 w-5" />
-                    Eu quero todas receitas com desconto!
+                    Eu quero todas receitas!
                   </Button>
                 </CardFooter>
               </Card>
