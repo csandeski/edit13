@@ -1038,7 +1038,7 @@ export default function BreadQuiz() {
 
                   <div className="text-center mb-4">
                     <img
-                      src="https://i.imgur.com/tXRDnQ9.png"
+                      src="https://i.imgur.com/fb9GMgO.png"
                       alt="Pão Fofinho"
                       className="mx-auto max-w-full h-auto mb-4"
                     />
